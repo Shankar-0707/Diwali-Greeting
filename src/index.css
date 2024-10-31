@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.frame-default {
+    border: 8px solid #ffcc00;
+    background: repeating-linear-gradient(
+      45deg,
+      #ffeb3b,
+      #ffeb3b 10px,
+      #ffa726 10px,
+      #ffa726 20px
+    );
+  }
+  
+  .frame-diyas {
+    border: 8px solid #ff9800;
+    background: url('https://images.unsplash.com/photo-1604076913837-257f3c56a710') 
+      center/cover no-repeat;
+  }
+  
+  .frame-rangoli {
+    border: 8px solid #4caf50;
+    background: url('https://images.unsplash.com/photo-1573561768225-5998b841b786') 
+      center/cover no-repeat;
+  }
+  
